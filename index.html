@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter,serif;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="dark-mode-container">
+        <div class="dark-mode-dark-mode">
+          <div class="dark-mode-frame43">
+            <div class="dark-mode-frame16">
+              <div class="dark-mode-frame1">
+                <span class="dark-mode-text10"><span>Mani Chandra</span></span>
+                <span class="dark-mode-text12">
+                  <span>Machine Learning Enthusiast</span>
+                </span>
+              </div>
+              <span class="dark-mode-text14">
+                <span>
+                  Hey I’m a CS undergraduate student at Indian Institute of
+                  Information Technology Guwahati. I am interested in Machine
+                  Learning, Open source and Systems Security
+                </span>
+              </span>
+            </div>
+            <div class="dark-mode-frame42">
+              <div class="dark-mode-frame24">
+                <span class="dark-mode-text16"><span>projects_</span></span>
+              </div>
+              <div class="dark-mode-frame41">
+                <div class="dark-mode-frame40">
+                  <div class="dark-mode-heading1">
+                    <div class="dark-mode-frame201">
+                      <span class="dark-mode-text18">
+                        <span>Java, OOP, AI</span>
+                      </span>
+                      <div class="dark-mode-frame91">
+                        <span class="dark-mode-text20">
+                          <span>Chess Engine</span>
+                        </span>
+                      </div>
+                    </div>
+                    <span class="dark-mode-text22">
+                      <span>Sept 2023 - March 2024</span>
+                    </span>
+                  </div>
+                  <div class="dark-mode-frame221">
+                    <div class="dark-mode-frame121">
+                      <div class="dark-mode-frame321">
+                        <div class="dark-mode-pointscan10">
+                          <img
+                            alt="pointscan025"
+                            src="public/external/pointscan025-61we.svg"
+                            class="dark-mode-pointscan11"
+                          />
+                        </div>
+                      </div>
+                      <span class="dark-mode-text24">
+                        <span>
+                          Developed a full-featured Chess game in Java,
+                          leveraging Object-Oriented Programming principles to
+                          design a flexible and maintainable codebase.
+                        </span>
+                      </span>
+                    </div>
+                    <div class="dark-mode-frame131">
+                      <div class="dark-mode-frame322">
+                        <div class="dark-mode-pointscan12">
+                          <img
+                            alt="pointscan030"
+                            src="public/external/pointscan030-8hfp.svg"
+                            class="dark-mode-pointscan13"
+                          />
+                        </div>
+                      </div>
+                      <span class="dark-mode-text26">
+                        <span>
+                          Implemented AI algorithms using Mini-max with
+                          alpha-beta pruning to create challenging and
+                          intelligent opponents with upto 70\% win-rate.
+                        </span>
+                      </span>
+                    </div>
+                    <div class="dark-mode-frame141">
+                      <div class="dark-mode-frame323">
+                        <div class="dark-mode-pointscan14">
+                          <img
+                            alt="pointscan035"
+                            src="public/external/pointscan035-lr2c.svg"
+                            class="dark-mode-pointscan15"
+                          />
+                        </div>
+                      </div>
+                      <span class="dark-mode-text28">
+                        <span>
+                          Integrated a graphical user interface (GUI) using Java
+                          Swing to provide an interactive and visually appealing
+                          user experience.
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="dark-mode-frame39">
+                  <div class="dark-mode-heading2">
+                    <div class="dark-mode-frame202">
+                      <span class="dark-mode-text30">
+                        <span>Machine Learning, Python3, Scikit-learn</span>
+                      </span>
+                      <div class="dark-mode-frame92">
+                        <span class="dark-mode-text32">
+                          <span>Image Compression</span>
+                        </span>
+                      </div>
+                    </div>
+                    <span class="dark-mode-text34">
+                      <span>May 2024 - May 2024</span>
+                    </span>
+                  </div>
+                  <div class="dark-mode-frame222">
+                    <div class="dark-mode-frame122">
+                      <div class="dark-mode-frame324">
+                        <div class="dark-mode-pointscan16">
+                          <img
+                            alt="pointscan048"
+                            src="public/external/pointscan048-8ce8.svg"
+                            class="dark-mode-pointscan17"
+                          />
+                        </div>
+                      </div>
+                      <span class="dark-mode-text36">
+                        <span>
+                          Developed an image compression algorithm using Python,
+                          using K-means Clustering using 16 clusters to reduce
+                          image file sizes while maintaining visual quality.
+                        </span>
+                      </span>
+                    </div>
+                    <div class="dark-mode-frame132">
+                      <div class="dark-mode-frame325">
+                        <div class="dark-mode-pointscan18">
+                          <img
+                            alt="pointscan053"
+                            src="public/external/pointscan053-p6y9.svg"
+                            class="dark-mode-pointscan19"
+                          />
+                        </div>
+                      </div>
+                      <span class="dark-mode-text38">
+                        <span>
+                          Analysed various image datasets to fine-tune the
+                          compression model, achieving an average compression
+                          ratio of up to 60\% without noticeable loss in image
+                          quality.
+                        </span>
+                      </span>
+                    </div>
+                    <div class="dark-mode-frame142">
+                      <div class="dark-mode-frame326">
+                        <div class="dark-mode-pointscan20">
+                          <img
+                            alt="pointscan058"
+                            src="public/external/pointscan058-yvn.svg"
+                            class="dark-mode-pointscan21"
+                          />
+                        </div>
+                      </div>
+                      <span class="dark-mode-text40">
+                        <span>
+                          Implemented Principal Component Analysis (PCA) to
+                          reduce the dimensionality of image data, leading to a
+                          50\% decrease in storage requirements.
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dark-mode-professional-experience">
+              <span class="dark-mode-text42"><span>Education_</span></span>
+              <div class="dark-mode-content1">
+                <div class="dark-mode-work-experience">
+                  <div class="dark-mode-heading3">
+                    <div class="dark-mode-frame203">
+                      <div class="dark-mode-frame93">
+                        <span class="dark-mode-text44">
+                          <span>Bachelor of Technology</span>
+                        </span>
+                      </div>
+                      <span class="dark-mode-text46">
+                        <span>
+                          Indian Institute of Information Technology Guwahati
+                        </span>
+                      </span>
+                    </div>
+                    <span class="dark-mode-text48">
+                      <span>July 2022 - June 2026</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dark-mode-frame37">
+              <span class="dark-mode-text50"><span>Skills_</span></span>
+              <div class="dark-mode-content2">
+                <div class="dark-mode-frame26">
+                  <div class="dark-mode-brightnessempty10">
+                    <img
+                      alt="brightnessempty083"
+                      src="public/external/brightnessempty083-gkbw.svg"
+                      class="dark-mode-brightnessempty11"
+                    />
+                  </div>
+                  <span class="dark-mode-text52">
+                    <span>Machine Learning</span>
+                  </span>
+                </div>
+                <div class="dark-mode-frame36">
+                  <img
+                    alt="Line4086"
+                    src="public/external/line4086-ksud.svg"
+                    class="dark-mode-line41"
+                  />
+                </div>
+                <div class="dark-mode-frame27">
+                  <div class="dark-mode-brightnessempty12">
+                    <img
+                      alt="brightnessempty090"
+                      src="public/external/brightnessempty090-zjfp.svg"
+                      class="dark-mode-brightnessempty13"
+                    />
+                  </div>
+                  <span class="dark-mode-text54">
+                    <span>Artificial Inteligence</span>
+                  </span>
+                </div>
+                <div class="dark-mode-frame351">
+                  <img
+                    alt="Line4093"
+                    src="public/external/line4093-ws4x.svg"
+                    class="dark-mode-line42"
+                  />
+                </div>
+                <div class="dark-mode-frame28">
+                  <div class="dark-mode-brightnessempty14">
+                    <img
+                      alt="brightnessempty097"
+                      src="public/external/brightnessempty097-iks.svg"
+                      class="dark-mode-brightnessempty15"
+                    />
+                  </div>
+                  <span class="dark-mode-text56">
+                    <span>Problem Solving</span>
+                  </span>
+                </div>
+                <div class="dark-mode-frame341">
+                  <img
+                    alt="Line40100"
+                    src="public/external/line40100-jzq5.svg"
+                    class="dark-mode-line43"
+                  />
+                </div>
+                <div class="dark-mode-frame29">
+                  <div class="dark-mode-brightnessempty16">
+                    <img
+                      alt="brightnessempty0104"
+                      src="public/external/brightnessempty0104-eajn.svg"
+                      class="dark-mode-brightnessempty17"
+                    />
+                  </div>
+                  <span class="dark-mode-text58">
+                    <span>Backend Web-Development</span>
+                  </span>
+                </div>
+                <div class="dark-mode-frame331">
+                  <img
+                    alt="Line40107"
+                    src="public/external/line40107-8gpt.svg"
+                    class="dark-mode-line44"
+                  />
+                </div>
+                <div class="dark-mode-frame30">
+                  <div class="dark-mode-brightnessempty18">
+                    <img
+                      alt="brightnessempty0111"
+                      src="public/external/brightnessempty0111-r89j.svg"
+                      class="dark-mode-brightnessempty19"
+                    />
+                  </div>
+                  <span class="dark-mode-text60">
+                    <span>Cyber Security</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="dark-mode-frame45">
+              <div class="dark-mode-frame44">
+                <span class="dark-mode-text62"><span>Connect_</span></span>
+                <div class="dark-mode-frame61">
+                  <div class="dark-mode-frame4">
+                    <div class="dark-mode-frame31">
+                      <span class="dark-mode-text64">
+                        <span>Facebook</span>
+                      </span>
+                      <span class="dark-mode-text66">
+                        <span>_manichandraganapathri</span>
+                      </span>
+                    </div>
+                    <div class="dark-mode-arrowoutward1">
+                      <img
+                        alt="arrowoutward0123"
+                        src="public/external/arrowoutward0123-ndfp.svg"
+                        class="dark-mode-arrowoutward2"
+                      />
+                    </div>
+                  </div>
+                  <div class="dark-mode-frame352">
+                    <img
+                      alt="Line40125"
+                      src="public/external/line40125-fzpk.svg"
+                      class="dark-mode-line45"
+                    />
+                  </div>
+                  <div class="dark-mode-frame5">
+                    <div class="dark-mode-frame38">
+                      <span class="dark-mode-text68">
+                        <span>Instagram</span>
+                      </span>
+                      <span class="dark-mode-text70">
+                        <span>_manichandraganapathri</span>
+                      </span>
+                    </div>
+                    <div class="dark-mode-arrowoutward3">
+                      <img
+                        alt="arrowoutward0132"
+                        src="public/external/arrowoutward0132-rzhi.svg"
+                        class="dark-mode-arrowoutward4"
+                      />
+                    </div>
+                  </div>
+                  <div class="dark-mode-frame342">
+                    <img
+                      alt="Line40134"
+                      src="public/external/line40134-n21.svg"
+                      class="dark-mode-line46"
+                    />
+                  </div>
+                  <div class="dark-mode-frame62">
+                    <div class="dark-mode-frame310">
+                      <span class="dark-mode-text72">
+                        <span>LinkedIn</span>
+                      </span>
+                      <span class="dark-mode-text74">
+                        <span>_mani chandra ganapathri</span>
+                      </span>
+                    </div>
+                    <div class="dark-mode-arrowoutward5">
+                      <img
+                        alt="arrowoutward0141"
+                        src="public/external/arrowoutward0141-5ae.svg"
+                        class="dark-mode-arrowoutward6"
+                      />
+                    </div>
+                  </div>
+                  <div class="dark-mode-frame332">
+                    <img
+                      alt="Line40143"
+                      src="public/external/line40143-oy79.svg"
+                      class="dark-mode-line47"
+                    />
+                  </div>
+                  <div class="dark-mode-frame7">
+                    <div class="dark-mode-frame311">
+                      <span class="dark-mode-text76"><span>GitHub</span></span>
+                      <span class="dark-mode-text78">
+                        <span>_manichandra3</span>
+                      </span>
+                    </div>
+                    <div class="dark-mode-arrowoutward7">
+                      <img
+                        alt="arrowoutward0150"
+                        src="public/external/arrowoutward0150-6f7.svg"
+                        class="dark-mode-arrowoutward8"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dark-mode-frame46">
+              <img
+                alt="image20152"
+                src="public/external/image20152-9hza-200w.png"
+                class="dark-mode-image2"
+              />
+              <div class="dark-mode-frame47">
+                <span class="dark-mode-text80">
+                  <span class="dark-mode-text81">
+                    You reached End, Thanks for Showing Interest in my work.
+                  </span>
+                </span>
+                <span class="dark-mode-text82">
+                  <span>Have a Great day!</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
